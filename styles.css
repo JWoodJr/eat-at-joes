@@ -1,10 +1,11 @@
 
 a {
 	text-decoration: none;
+	color: orange;
 }
 
 a:hover {
-	color: blue;
+	color: gray;
 }
 
 .marginless {
@@ -122,7 +123,7 @@ a:hover {
 	display: inline;
 }
 
-.header {
+nav {
 	padding: 10px 20px;
 	font-family: fantasy;
 	border-bottom: gray solid 2px;
@@ -164,7 +165,7 @@ a:hover {
 	font-size: 20px;
 }
 
-.article {
+article {
 	overflow: hidden;
 	border: 2px lightgray solid;
 }
@@ -174,7 +175,7 @@ a:hover {
 	margin: 10px 2px;
 }
 
-.footer {
+footer {
 	background: darkgray;
 	text-align: center;
 }
